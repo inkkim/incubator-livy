@@ -61,7 +61,7 @@
             </goals>
             <configuration>
               <executable>python</executable>
-              <skip>${skipTests}</skip>
+              <skip>true</skip>
               <arguments>
                 <argument>setup.py</argument>
                 <argument>test</argument>
